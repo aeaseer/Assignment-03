@@ -99,12 +99,16 @@
                     <img class="" src="images/banner.png" alt="">
                 </div>
                 <div>
-                    <h1 class="font-extrabold lg:text-6xl text-3xl text-center pb-6 text-[#212121]">A barn house of this
-                        design has a<br> striking appearance</h1>
-                    <p class="lg:text-lg font-medium text-sm text-center pb-8 text-[#494949]">The barn house captivates
-                        with its
-                        blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal<br>
-                        accents, and large windows that flood the space with natural light.</p>
+                    <div class="flex justify-center">
+                        <h1 class="font-extrabold lg:text-6xl text-3xl text-center pb-6 text-[#212121] lg:w-[1084px]">A
+                            barn house of this design has a striking appearance</h1>
+                    </div>
+                    <div class="flex justify-center">
+                        <p class="lg:text-lg font-medium text-sm text-center pb-8 text-[#494949] lg:w-[972px]">The barn
+                            house captivates with its blend of rustic charm and modern sophistication, featuring
+                            weathered wood, sleek metal accents, and large windows that flood the space with natural
+                            light.</p>
+                    </div>
                     <div class="flex justify-center items-center pb-10 lg:pb-24">
                         <a class="btn bg-[#acef5f7c] rounded-full">
                             <div class="text-[#212121]">View Details</div>
@@ -132,13 +136,14 @@
                                 <div class="font-bold text-[#494949]">About Us</div>
                             </a>
                         </div>
-                        <h1 class="text-4xl font-extrabold pt-4 text-center lg:text-left text-[#212121]">We design
-                            thoughtful,<br> liveable
-                            spaces</h1>
+                        <div class="flex justify-start">
+                            <h1
+                                class="text-4xl font-extrabold pt-4 text-center lg:w-[477px] lg:text-left text-[#212121]">
+                                We design thoughtful, liveable spaces</h1>
+                        </div>
                         <p class="py-6 text-center lg:text-left text-[#494949]">The barn house captivates with its blend
-                            of rustic
-                            charm and
-                            modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                            of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                        </p>
                         <div class="card card-side bg-base-100 shadow-xl">
                             <figure>
                                 <img class="pl-6" src="images/commercial.png" alt="Commercial" />
@@ -182,7 +187,7 @@
                 rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
         </div>
         <!-- concept, design process, supervision, budget planning section -->
-        <div class="md:container mx-auto pt-6 pb-8 lg:pt-8 lg:pb-24 px-3">
+        <div class="md:container mx-auto pt-6 pb-8 lg:pt-8 lg:pb-24 px-3 lg:px-5">
             <div class="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-6">
                 <!-- card 1 -->
                 <div class="lg:w-64 rounded-2xl p-6 bg-[#E7C1D3]">
@@ -214,8 +219,69 @@
                 </div>
             </div>
         </div>
-
     </main>
+    <!-- lets discuss next project -->
+    <div class="bg-[bg-cover bg-center h-screen]" style="background-image: url(images/bg.jpg);">
+        <div class="md:container mx-auto px-3 pt-8 lg:pt-24">
+            <div>
+                <div class="flex justify-center items-center pb-4">
+                    <a class="btn bg-[#acef5f3d] rounded-full">
+                        <div class="rounded-full"><i class="fa-solid fa-arrow-right text-black"></i>
+                        </div>
+                        <div class="font-bold">Let's Connect</div>
+                    </a>
+                </div>
+                <h3 class="text-4xl font-extrabold text-center text-[#494949] pb-4 lg:pb-6">Let’s Discuss Next Project
+                </h3>
+                <div class="flex justify-center">
+                    <p class="text-center font-medium text-[#494949] lg:w-[678px] pb-8">The barn house captivates with
+                        its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal
+                        accents.
+                    </p>
+                </div>
+                <!-- form -->
+                <div class="flex justify-center">
+                    <div class="lg:w-[970px] w-full px-4">
+                        <div class="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:gap-6  pb-6 lg:pb-8">
+                            <!-- first name -->
+                            <label class="input input-bordered flex items-center gap-2 rounded-full">
+                                <input type="text" class="grow" placeholder="First Name*" required />
+                            </label>
+                            <!-- last name -->
+                            <label class="input input-bordered flex items-center gap-2 rounded-full">
+                                <input type="text" class="grow" placeholder="Last Name*" required />
+                            </label>
+                            <!-- phone number -->
+                            <label class="input input-bordered flex items-center gap-2 rounded-full">
+                                <input type="text" class="grow" placeholder="Phone Number*" required />
+                            </label>
+                            <!-- email number -->
+                            <label class="input input-bordered flex items-center gap-2 rounded-full">
+                                <input type="email" class="grow" placeholder="Email Number*" required />
+                            </label>
+                            <!-- Write your msg -->
+                            <label class="input input-bordered flex items-center gap-2 rounded-full row-span-3 lg:col-span-2 lg:row-span-2">
+                                <input type="text" class="grow" placeholder="Write your message here*" />
+                            </label>
+        
+                        </div>
+                        <!-- button -->
+                        <div class="lg:pb-24 pb-8">
+                            <div class="gap-2">
+                                <a class="btn bg-button-primary rounded-full w-full">
+                                    <div class="font-extrabold text-[#1c1c1c]">Send Mail</div>
+                                    <div class="p-2 rounded-full bg-[#1c1c1c]"><i
+                                            class="fa-solid fa-arrow-right -rotate-45 text-white"></i></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
 
     <footer></footer>
 
