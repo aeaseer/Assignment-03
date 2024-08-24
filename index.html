@@ -242,28 +242,46 @@
                 <!-- form -->
                 <div class="flex justify-center">
                     <div class="lg:w-[970px] w-full px-4">
-                        <div class="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:gap-6  pb-6 lg:pb-8">
+                        <div class="grid lg:grid-cols-2 grid-cols-1 grid-flow-row gap-4 lg:gap-6 pb-6 lg:pb-8">
                             <!-- first name -->
-                            <label class="input input-bordered flex items-center gap-2 rounded-full">
-                                <input type="text" class="grow" placeholder="First Name*" required />
-                            </label>
+                            <div>
+                                <label class="input input-bordered flex items-center gap-2 rounded-full">
+                                    <input type="text" class="grow" placeholder="First Name*" required />
+                                </label>
+                            </div>
                             <!-- last name -->
-                            <label class="input input-bordered flex items-center gap-2 rounded-full">
-                                <input type="text" class="grow" placeholder="Last Name*" required />
-                            </label>
+                            <div>
+                                <label class="input input-bordered flex items-center gap-2 rounded-full">
+                                    <input type="text" class="grow" placeholder="Last Name*" required />
+                                </label>
+                            </div>
                             <!-- phone number -->
-                            <label class="input input-bordered flex items-center gap-2 rounded-full">
-                                <input type="text" class="grow" placeholder="Phone Number*" required />
-                            </label>
+                            <div>
+                                <label class="input input-bordered flex items-center gap-2 rounded-full">
+                                    <input type="text" class="grow" placeholder="Phone Number*" required />
+                                </label>
+                            </div>
                             <!-- email number -->
-                            <label class="input input-bordered flex items-center gap-2 rounded-full">
-                                <input type="email" class="grow" placeholder="Email Number*" required />
-                            </label>
+                            <div>
+                                <label class="input input-bordered flex items-center gap-2 rounded-full">
+                                    <input type="email" class="grow" placeholder="Email Number*" required />
+                                </label>
+                            </div>
                             <!-- Write your msg -->
-                            <label class="input input-bordered flex items-center gap-2 rounded-full row-span-3 lg:col-span-2 lg:row-span-2">
-                                <input type="text" class="grow" placeholder="Write your message here*" />
-                            </label>
-        
+
+                            <!-- <div class="row-span-3 lg:col-span-2 lg:row-span-2">
+                                <label class="input input-bordered flex items-center gap-2 rounded-full">
+                                    <input type="text" class="grow" placeholder="Write your message here*" />
+                                </label>
+                            </div> -->
+
+                            <div class="row-span-3 lg:col-span-2 lg:row-span-2">
+                                <!-- <label class="input input-bordered flex items-center gap-2 rounded-full">
+                                    <input type="text" class="grow" placeholder="Write your message here*" />
+                                </label> -->
+                                <textarea class="rounded-3xl w-full px-4 py-3" rows="8" id=""
+                                    placeholder="Write your message here"></textarea>
+                            </div>
                         </div>
                         <!-- button -->
                         <div class="lg:pb-24 pb-8">
@@ -277,7 +295,7 @@
                         </div>
                     </div>
                 </div>
-                
+
 
             </div>
         </div>
